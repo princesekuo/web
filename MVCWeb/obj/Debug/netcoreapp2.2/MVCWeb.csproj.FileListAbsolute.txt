@@ -28,4 +28,13 @@ D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\MVCWeb.Views.pdb
 D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\MVCWeb.dll
 D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\MVCWeb.pdb
 D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\MVCWeb.csproj.CopyComplete
-D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Home\Content.g.cshtml.cs
+D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Example\Alerts.g.cshtml.cs
+D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Example\Badges.g.cshtml.cs
+D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Example\Cards.g.cshtml.cs
+D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Example\Container.g.cshtml.cs
+D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Example\Content.g.cshtml.cs
+D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Example\Figure.g.cshtml.cs
+D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Example\FigureRWD.g.cshtml.cs
+D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Example\Forms.g.cshtml.cs
+D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Example\Table.g.cshtml.cs
+D:\Code\BootstrapLearning\MVCWeb\obj\Debug\netcoreapp2.2\Razor\Views\Example\Grid.g.cshtml.cs

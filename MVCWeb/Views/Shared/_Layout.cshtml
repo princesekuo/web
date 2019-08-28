@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MVCWeb</title>
+    <title>@ViewData["Title"] - 教學示範</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -19,36 +19,76 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+         <nav class="navbar navbar-expand-sm navbar-toggleable-sm
+          navbar-light bg-light  border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MVCWeb</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PrinceseKuo 教學示範</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                         <!-- 第一章節 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Layout</a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" 
+                                href="@Url.Action("Container","Example")">Container</a>
+                                <a class="dropdown-item"
+                                href="@Url.Action("Grid","Example")">Grid</a>
+                               
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+                        <!-- 第二章節 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Content</a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" 
+                                href="@Url.Action("Content","Example")">文字排版</a>
+                                <a class="dropdown-item"
+                                href="@Url.Action("Table","Example")">表格</a>
+                                <a class="dropdown-item" 
+                                href="@Url.Action("Figure","Example")">圖像形狀</a>
+                                <a class="dropdown-item" 
+                                href="@Url.Action("FigureRWD","Example")">響應式圖片</a>
+                            </div>
                         </li>
+  <!-- 第三章節 -->
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Components</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" 
+                                href="@Url.Action("Cards","Example")">Cards</a>
+                                <a class="dropdown-item"
+                                href="@Url.Action("Alerts","Example")">訊息提示框</a>
+                                <a class="dropdown-item" 
+                                href="@Url.Action("Badges","Example")">Badges</a>
+                                <a class="dropdown-item" 
+                                href="@Url.Action("Forms","Example")">Forms</a>
+                            </div>  
+                             </li>
+
+                        
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> 
+
+
     </header>
-    <div class="container">
+    <div class="container" style="margin-top:50px">
         <partial name="_CookieConsentPartial" />
-        <main role="main" class="pb-3">
+      
             @RenderBody()
-        </main>
+        
     </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2019 - MVCWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2019 - Bootstrap 4教學示範 - <i class="fa fa-home"></i>
+            <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
         </div>
     </footer>
 

@@ -2948,8 +2948,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Example\\Content.cshtml",
+      "TargetPath": "Views\\Example\\Content.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Example\\Table.cshtml",
+      "TargetPath": "Views\\Example\\Table.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Example\\Badges.cshtml",
+      "TargetPath": "Views\\Example\\Badges.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Example\\FigureRWD.cshtml",
+      "TargetPath": "Views\\Example\\FigureRWD.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2958,8 +2978,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Example\\Container.cshtml",
+      "TargetPath": "Views\\Example\\Container.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Example\\Grid.cshtml",
+      "TargetPath": "Views\\Example\\Grid.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2968,8 +2998,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Home\\Content.cshtml",
-      "TargetPath": "Views\\Home\\Content.cshtml",
+      "FilePath": "Views\\Example\\Alerts.cshtml",
+      "TargetPath": "Views\\Example\\Alerts.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2983,8 +3013,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Example\\Cards.cshtml",
+      "TargetPath": "Views\\Example\\Cards.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Example\\Forms.cshtml",
+      "TargetPath": "Views\\Example\\Forms.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Example\\Figure.cshtml",
+      "TargetPath": "Views\\Example\\Figure.cshtml",
       "FileKind": "mvc"
     }
   ],
